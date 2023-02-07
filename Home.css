@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Sans-serif;
+}
+#header{
+    width:100%;
+    height:500px;
+    padding:0;
+    margin:0;
+    position:relative;
+    font-size: 18px;
+}
+#headerbgimg{
+    width:100%;
+    height:500px;
+    position:absolute;
+    z-index:-1;
+}
+#nav-title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 75px;
+}
+#nav-content{
+    text-decoration: none;
+    margin-left: 25px;
+    color:white;
+}
+#nav-btn{
+    margin-left: 25px;
+    width:150px;
+    height:40px;
+    background-color: transparent;
+    border:2px solid white;
+    color:white;
+}
+#header-div{
+    width:100%;
+    height:300px;
+}
+#header-heading{
+    font-size: 55px;
+}
+#header-btn1{
+    width:180px;
+    height:40px;
+    background-color: rgb(7, 75, 7);
+    border:none;
+    color:white;
+}
+#header-btn2{
+    width:200px;
+    height:40px;
+    background-color: transparent;
+    border:2px solid white;
+    color: white;
+}
+#header-para{
+    width: 60%;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+}
+#section1{
+    width:100%;
+    height:600px;
+    display:flex;
+    flex-direction: column;
+}
+#upperdiv{
+    width:100%;
+    height:250px;
+    display:flex;
+    flex-direction: row;
+    position:relative;
+}
+#upperdiv-left{
+    width:40%;
+    height:250px;
+}
+#udl-heading{
+    margin-top: 80px;
+    color: rgb(7, 75, 7)
+}
+#upperdiv-right{
+    width: 60%;
+    height:250px;
+}
+#udr-para{
+    margin-top: 60px;
+}
+#lowediv{
+    width:100%;
+    height:350;
+    display:flex;
+    flex-direction: row;
+}
+#card1, #card2, #card3{
+    width:30%;
+    height:340px;
+    float:left;
+    margin-left: 2.5%;
+}
+#card-img, #card-img1{
+    width:100%;
+    height:110px;
+    font-size: 100px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+#card-header, #card-img{
+    color:rgb(7, 75, 7);
+}
+#card2{
+    background-color: rgb(7, 75, 7);
+    color:white;
+}
+
+
+
+
+
+@media screen and (max-width:767px){
+    #header{
+        width:100%;
+        height:750px;
+    }
+    #nav-title{
+        width:100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    #navbar{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        text-align: center;
+    }
+    #nav-content, #nav-btn{
+        margin-top: 20px;
+    }
+    #headerbgimg{
+        height:750px;
+    }
+
+    #section1{
+        width: 100%;
+        height:1550px;
+    }
+    #upperdiv{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        height: 500px;
+    }
+    #upperdiv-left, #upperdiv-right{
+        width:100%;
+    }
+    #upperdiv-left{
+        height:150px;
+    }
+    #lowediv{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+    }
+    #card1, #card2, #card3{
+        float: initial;
+        width:90%;
+        margin-left: 10%;
+        margin-top:20px;
+    }
+
+}
